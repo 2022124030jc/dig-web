@@ -1,5 +1,3 @@
-import { LayoutGroup } from 'framer-motion';
-import * as motion from 'framer-motion/client';
 import HomePanel from './components/home-panel';
 
 export interface Service {
@@ -30,18 +28,16 @@ const services: Service[] = [
 
 export default function Home() {
   return (
-    <LayoutGroup>
-      <motion.div className="w-full h-full flex flex-col md:flex-row">
-        {services.map((service, index) => (
-          <HomePanel
-            key={service.title}
-            service={service}
-            index={index}
-            isLast={index === services.length - 1}
-            category={service.title}
-          />
-        ))}
-      </motion.div>
-    </LayoutGroup>
+    <main className="w-full h-full flex flex-col md:flex-row">
+      {services.map((service, index) => (
+        <HomePanel
+          key={service.title}
+          service={service}
+          index={index}
+          isLast={index === services.length - 1}
+          category={service.title}
+        />
+      ))}
+    </main>
   );
 }

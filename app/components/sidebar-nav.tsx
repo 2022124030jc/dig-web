@@ -186,18 +186,34 @@ export default function SidebarNav() {
           >
             {/* 分类标题 */}
             <motion.button
-              className={clsx('w-full text-left focus:outline-none py-2')}
+              className={clsx('w-full text-left focus:outline-none py-2 ')}
               onClick={() => toggleSection(section.label)}
-              whileHover={{ x: 5 }}
+              initial="initial"
+              whileHover="hover"
+              animate="initial"
               transition={{ duration: 0.2 }}
+              variants={{
+                initial: {},
+                hover: {
+                  x: 5,
+                },
+              }}
             >
-              <span
-                className={`font-black transition-all duration-300 text-xl md:text-2xl ${
-                  isExpanded ? 'text-white' : 'text-white/50 hover:text-white'
+              <motion.span
+                className={`font-roboto font-black transition-all duration-300 text-xl md:text-2xl ${
+                  isExpanded ? 'text-white' : 'text-white/50'
                 }`}
+                variants={{
+                  initial: {
+                    color: isExpanded ? 'white' : 'rgba(255, 255, 255, 0.5)',
+                  },
+                  hover: {
+                    color: 'white',
+                  },
+                }}
               >
                 {section.label}
-              </span>
+              </motion.span>
             </motion.button>
 
             {/* 子项目列表 */}
