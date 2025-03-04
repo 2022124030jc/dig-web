@@ -34,7 +34,6 @@ const getGradientPositionByIndex = (index: number) => {
 const HomePanel = ({ service, index, isLast, category }: ServicePanelProps) => {
   const { title, videoSrc } = service;
   const [isHovered, setIsHovered] = useState(false);
-  const [isVideoReady, setIsVideoReady] = useState(false);
   const router = useRouter();
 
   // 获取当前分类对应的路由项目
