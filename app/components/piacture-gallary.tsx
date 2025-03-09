@@ -2,16 +2,8 @@
 
 import Image from 'next/image';
 import React, { useState } from 'react';
-
-// 图片数据接口
-export interface PictureItem {
-  id: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  imgUrl: string;
-  author: string;
-}
+import { getItemClassName } from '../utils/layout-utils';
+import { PictureItem } from '../utils/type';
 
 const PictureGallery: React.FC<{ picturesData: PictureItem[] }> = ({ picturesData }) => {
   const [activePicture, setActivePicture] = useState<PictureItem | null>(null);
@@ -27,15 +19,15 @@ const PictureGallery: React.FC<{ picturesData: PictureItem[] }> = ({ picturesDat
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto h-full">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {picturesData.map((picture) => (
-          <div key={picture.id} className="picture-item flex flex-col">
+          <div key={picture.id} className={getItemClassName(picture, 'picture-item flex flex-col')}>
             <div
-              className="relative aspect-[3/4] cursor-pointer min-h-[400px] rounded-2xl overflow-hidden"
+              className="relative h-[400px] cursor-pointer rounded-2xl overflow-hidden"
               onClick={() => openPictureModal(picture)}
             >
-              <div className="w-full h-full bg-gray-200 relative">
+              <div className="w-full h-full relative">
                 <Image
                   src={picture.imgUrl}
                   alt={picture.title}
@@ -44,7 +36,7 @@ const PictureGallery: React.FC<{ picturesData: PictureItem[] }> = ({ picturesDat
                   className="rounded-lg"
                   unoptimized
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-10 hover:bg-opacity-20 transition-all duration-300"></div>
+                <div className="absolute inset-0 hover:bg-black hover:bg-opacity-20 transition-all duration-300"></div>
               </div>
             </div>
             <div className="mt-2 px-1">

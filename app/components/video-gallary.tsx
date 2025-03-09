@@ -3,15 +3,8 @@
 import { Play } from 'lucide-react';
 import Image from 'next/image';
 import React, { useState } from 'react';
-
-// 视频数据接口
-interface VideoItem {
-  description: string;
-  sources: string[];
-  subtitle: string;
-  thumb: string;
-  title: string;
-}
+import { getItemClassName } from '../utils/layout-utils';
+import { VideoItem } from '../utils/type';
 
 const VideoGallery: React.FC<{ mediaJSON: VideoItem[] }> = ({ mediaJSON }) => {
   const [activeVideo, setActiveVideo] = useState<VideoItem | null>(null);
@@ -30,12 +23,12 @@ const VideoGallery: React.FC<{ mediaJSON: VideoItem[] }> = ({ mediaJSON }) => {
     <div className="container mx-auto">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {mediaJSON.map((video, index) => (
-          <div key={index} className="video-item flex flex-col">
+          <div key={index} className={getItemClassName(video, 'video-item flex flex-col')}>
             <div
-              className="relative aspect-[3/4] cursor-pointer min-h-[400px] rounded-2xl overflow-hidden"
+              className="relative h-[400px] cursor-pointer rounded-2xl overflow-hidden"
               onClick={() => openVideoModal(video)}
             >
-              <div className="w-full h-full bg-gray-200 relative">
+              <div className="w-full h-full relative">
                 <Image
                   src={video.thumb}
                   alt={video.title}
@@ -44,7 +37,7 @@ const VideoGallery: React.FC<{ mediaJSON: VideoItem[] }> = ({ mediaJSON }) => {
                   className="rounded-lg"
                   unoptimized
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-10 hover:bg-opacity-20 transition-all duration-300">
+                <div className="absolute inset-0 hover:bg-black hover:bg-opacity-20 transition-all duration-300">
                   <div className="absolute bottom-3 right-3 w-12 h-12 rounded-full bg-white bg-opacity-80 flex items-center justify-center shadow-md">
                     <Play className="h-6 w-6 text-primary fill-current text-black" />
                   </div>
