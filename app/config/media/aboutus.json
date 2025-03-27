@@ -1,0 +1,93 @@
+{
+  "headerImage": [
+    {
+      "description": "行业报道展示我们的最新成就和媒体报道",
+      "sources": [],
+      "subtitle": "2024品牌设计展",
+      "thumb": "https://plus.unsplash.com/premium_photo-1741194732590-95a096a10942?q=80&w=1588&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "2024品牌设计展",
+      "width": "1/1"
+    },
+    {
+      "description": "我们的团队在行业内获得广泛认可",
+      "sources": [],
+      "subtitle": "行业领先品牌",
+      "thumb": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "行业领先品牌",
+      "width": "1/1"
+    },
+    {
+      "description": "创新技术与设计的完美结合",
+      "sources": [],
+      "subtitle": "技术与设计的融合",
+      "thumb": "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "技术与设计的融合",
+      "width": "1/1"
+    }
+  ],
+  "rewards": [
+    {
+      "description": "用户喜爱程度最佳产品",
+      "type": "gold",
+      "title": "TOP",
+      "subtitle": "2024用户喜爱度调查",
+      "category": "最佳产品"
+    },
+    {
+      "description": "2024上半年气候指数",
+      "type": "red",
+      "title": "TOP 50",
+      "subtitle": "2024趋势奖",
+      "category": "气候指数"
+    },
+    {
+      "description": "2023-2024年度品牌",
+      "type": "blue",
+      "title": "商业数字奖",
+      "subtitle": "年度品牌商业创新奖",
+      "category": "年度品牌"
+    }
+  ],
+  "statistics": [
+    {
+      "title": "每亿曝光量",
+      "value": "6.3 W+",
+      "description": "每月用户订阅转化率"
+    },
+    {
+      "title": "1600 W+",
+      "value": "70.9 W+",
+      "description": "客户投放转化率"
+    },
+    {
+      "title": "月活用户",
+      "value": "85 W+",
+      "description": "视频互动量"
+    },
+    {
+      "title": "3000 W+",
+      "value": "3000 W+",
+      "description": "视频转化创收量"
+    },
+    {
+      "title": "49.1 W+",
+      "value": "49.1 W+",
+      "description": "笔记获赞收藏"
+    },
+    {
+      "title": "70.9 W+",
+      "value": "70.9 W+",
+      "description": "笔记互动量"
+    },
+    {
+      "title": "85 W+",
+      "value": "85 W+",
+      "description": "视频互动量"
+    },
+    {
+      "title": "3000 W+",
+      "value": "3000 W+",
+      "description": "视频累计播放"
+    }
+  ]
+}

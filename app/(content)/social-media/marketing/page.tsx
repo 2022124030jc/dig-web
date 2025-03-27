@@ -1,8 +1,13 @@
+import PictureGallery from '@/app/components/piacture-gallary';
+import socialMedia from '@/app/config/media/social-media.json';
+import { PictureItem } from '@/app/utils/type';
+
 export default function MarketingPage() {
   return (
     <div className="space-y-6">
-      <h1 className="text-3xl font-bold">媒体矩阵</h1>
-      <p className="text-gray-400">媒体矩阵内容展示区域</p>
+      <div className="space-y-6">
+        <PictureGallery picturesData={socialMedia.marketing as PictureItem[]} />
+      </div>
     </div>
   );
 }

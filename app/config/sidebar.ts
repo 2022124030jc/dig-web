@@ -71,8 +71,12 @@ export const navItems = [
     label: 'About Us',
     items: [
       {
-        label: 'About Us',
-        href: '/aboutus',
+        label: '团队成就',
+        href: '/aboutus/team',
+      },
+      {
+        label: 'Clients',
+        href: '/aboutus/clients',
       },
     ],
   },

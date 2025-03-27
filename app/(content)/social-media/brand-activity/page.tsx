@@ -1,8 +1,11 @@
+import PictureGallery from '@/app/components/piacture-gallary';
+import socialMedia from '@/app/config/media/social-media.json';
+import { PictureItem } from '@/app/utils/type';
+
 export default function BrandActivityPage() {
   return (
     <div className="space-y-6">
-      <h1 className="text-3xl font-bold">品牌活动</h1>
-      <p className="text-gray-400">品牌活动内容展示区域</p>
+      <PictureGallery picturesData={socialMedia.brandActivity as PictureItem[]} />
     </div>
   );
 }

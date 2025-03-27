@@ -49,7 +49,7 @@ const PictureGallery: React.FC<{ picturesData: PictureItem[] }> = ({ picturesDat
       {/* 图片预览模态框 */}
       {activePicture && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-2 overflow-y-auto"
+          className="fixed inset-0 bg-gray-500 bg-opacity-90 z-50 flex items-center justify-center p-2 overflow-y-auto"
           onClick={closePictureModal}
         >
           <div className="relative w-full max-w-5xl my-4" onClick={(e) => e.stopPropagation()}>

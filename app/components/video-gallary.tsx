@@ -54,7 +54,7 @@ const VideoGallery: React.FC<{ mediaJSON: VideoItem[] }> = ({ mediaJSON }) => {
       {/* 视频播放模态框 */}
       {activeVideo && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-2 overflow-y-auto"
+          className="fixed inset-0 bg-gray-500 bg-opacity-90 z-50 flex items-center justify-center p-2 overflow-y-auto"
           onClick={closeVideoModal}
         >
           <div className="relative w-full max-w-xl my-4" onClick={(e) => e.stopPropagation()}>
