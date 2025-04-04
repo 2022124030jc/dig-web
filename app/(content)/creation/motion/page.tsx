@@ -1,6 +1,6 @@
 import VideoGallery from '@/app/components/video-gallary';
-import creation from '@/app/config/media/creation.json';
 import { VideoItem } from '@/app/utils/type';
+import creation from '@/config/creation.json';
 
 export default function MotionPage() {
   return (

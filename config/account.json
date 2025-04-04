@@ -1,0 +1,127 @@
+[
+  {
+    "id": "1",
+    "avatar": "https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "name": "DIGIN",
+    "description": "DIGIN 数字营销",
+    "bg": "https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "detail": {
+      "url": " https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DIGIN_logo.svg/1200px-DIGIN_logo.svg.png",
+      "description": "digin拥有专业的摄影制作能力，为品牌宣传提供强有力的视觉支持。我们擅长将影像视觉作为品牌与消费者的桥梁，让二者之间产生共鸣。同时我们还不断创新，将传统摄影与AIGC艺术相结合，呈现独一无二的创意视觉叙事。",
+      "tc": {
+        "followers": "85 W+",
+        "link": "https://www.instagram.com/digin_official/"
+      },
+      "xiaohongshu": {
+        "followers": "85 W+",
+        "data": "101.3 W+",
+        "link": "https://www.xiaohongshu.com/user/6739570000000000001"
+      },
+      "douyin": {
+        "followers": "85 W+",
+        "data": "101.3 W+",
+        "link": "https://www.douyin.com/user/6739570000000000001"
+      }
+    }
+  },
+  {
+    "id": "2",
+    "avatar": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/c1.png",
+    "name": "DIG'IT",
+    "description": "DIG'IT 数字创意",
+    "bg": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "detail": {
+      "url": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/c1.png",
+      "description": "DIG'IT是一家专注于数字创意的工作室，致力于将创新科技与艺术设计相结合，为品牌打造独特的数字体验。我们的团队擅长利用最新的数字技术，包括AR/VR、互动装置和沉浸式体验，帮助品牌在数字世界中脱颖而出，与目标受众建立更深层次的连接。",
+      "tc": {
+        "followers": "62 W+",
+        "link": "https://www.instagram.com/digit_creative/"
+      },
+      "xiaohongshu": {
+        "followers": "45 W+",
+        "data": "78.5 W+",
+        "link": "https://www.xiaohongshu.com/user/digit_creative"
+      },
+      "douyin": {
+        "followers": "53 W+",
+        "data": "92.7 W+",
+        "link": "https://www.douyin.com/user/digit_creative"
+      }
+    }
+  },
+  {
+    "id": "3",
+    "avatar": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/c3.png",
+    "name": "DEEP FUN",
+    "description": "DEEP FUN 深度娱乐",
+    "bg": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "detail": {
+      "url": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/c3.png",
+      "description": "DEEP FUN是一家专注于深度娱乐内容创作的机构，致力于将娱乐与文化、艺术、科技深度融合。我们通过创新的内容形式和叙事方式，为用户提供既有趣味性又有思考深度的优质内容。团队擅长挖掘流行文化背后的深层价值，打造既能引发共鸣又能启发思考的娱乐体验。",
+      "tc": {
+        "followers": "73 W+",
+        "link": "https://www.instagram.com/deepfun_official/"
+      },
+      "xiaohongshu": {
+        "followers": "58 W+",
+        "data": "89.2 W+",
+        "link": "https://www.xiaohongshu.com/user/deepfun_official"
+      },
+      "douyin": {
+        "followers": "67 W+",
+        "data": "112.5 W+",
+        "link": "https://www.douyin.com/user/deepfun_official"
+      }
+    }
+  },
+  {
+    "id": "4",
+    "avatar": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/c4.png",
+    "name": "DIG'IT AI",
+    "description": "DIG'IT AI 人工智能创新",
+    "bg": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "detail": {
+      "url": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/c4.png",
+      "description": "DIG'IT AI是一家专注于人工智能创新应用的技术团队，致力于将前沿AI技术与创意设计相结合，为企业和用户提供智能化解决方案。我们的团队由AI研究者和创意设计师组成，擅长开发智能交互系统、生成式内容创作工具和数据驱动的个性化体验，帮助品牌在数字化转型中实现技术与人文的完美融合。",
+      "tc": {
+        "followers": "48 W+",
+        "link": "https://www.instagram.com/digit_ai_official/"
+      },
+      "xiaohongshu": {
+        "followers": "36 W+",
+        "data": "65.3 W+",
+        "link": "https://www.xiaohongshu.com/user/digit_ai_official"
+      },
+      "douyin": {
+        "followers": "42 W+",
+        "data": "78.9 W+",
+        "link": "https://www.douyin.com/user/digit_ai_official"
+      }
+    }
+  },
+  {
+    "id": "4",
+    "avatar": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/c4.png",
+    "name": "DIG'IT AI",
+    "description": "DIG'IT AI 人工智能创新",
+    "bg": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "detail": {
+      "url": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/c4.png",
+      "description": "DIG'IT AI是一家专注于人工智能创新应用的技术团队，致力于将前沿AI技术与创意设计相结合，为企业和用户提供智能化解决方案。我们的团队由AI研究者和创意设计师组成，擅长开发智能交互系统、生成式内容创作工具和数据驱动的个性化体验，帮助品牌在数字化转型中实现技术与人文的完美融合。",
+      "tc": {
+        "followers": "48 W+",
+        "link": "https://www.instagram.com/digit_ai_official/"
+      },
+      "xiaohongshu": {
+        "followers": "36 W+",
+        "data": "65.3 W+",
+        "link": "https://www.xiaohongshu.com/user/digit_ai_official"
+      },
+      "douyin": {
+        "followers": "42 W+",
+        "data": "78.9 W+",
+        "link": "https://www.douyin.com/user/digit_ai_official"
+      }
+    }
+  }
+]

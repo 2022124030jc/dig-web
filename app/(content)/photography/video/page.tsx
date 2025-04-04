@@ -1,6 +1,6 @@
 import VideoGallery from '@/app/components/video-gallary';
-import photography from '@/app/config/media/photography.json';
 import { VideoItem } from '@/app/utils/type';
+import photography from '@/config/photography.json';
 
 export default function VideoPage() {
   return (

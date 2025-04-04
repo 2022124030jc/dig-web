@@ -1,6 +1,6 @@
 'use client';
 
-import aboutusData from '@/app/config/media/aboutus.json';
+import aboutusData from '@/config/aboutus.json';
 import AutoPlay from 'embla-carousel-autoplay';
 import useEmblaCarousel from 'embla-carousel-react';
 import Image from 'next/image';
@@ -75,7 +75,7 @@ export default function TeamPage() {
   }
 
   return (
-    <div className="container mx-auto">
+    <div className="pb-40">
       {/* 行业报道部分 */}
       <section className="mb-12 w-full">
         <h2 className="text-2xl font-bold mb-6 text-white">行业报道</h2>
@@ -97,7 +97,6 @@ export default function TeamPage() {
           </div>
           <CarouselDots slides={aboutusData.headerImage} selectedIndex={headerSelectedIndex} />
         </div>
-        <div className="text-center mt-2 text-sm text-gray-400">2024品牌设计展</div>
       </section>
 
       {/* 奖项展示部分 */}
@@ -145,11 +144,10 @@ export default function TeamPage() {
       {/* 数据表现部分 */}
       <section>
         <h2 className="text-2xl font-bold mb-6 text-white">数据表现</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 bg-gray-800 rounded-lg p-6">
           {aboutusData.statistics.map((stat, index) => (
-            <div key={index} className="bg-gray-800 rounded-lg p-6">
-              <div className="text-gray-400 mb-2">{stat.title}</div>
-              <div className="text-white text-2xl font-bold mb-1">{stat.value}</div>
+            <div key={index} className=" rounded-lg p-6">
+              <div className="text-white text-2xl font-bold mb-1">{stat.title}</div>
               <div className="text-gray-400 text-sm">{stat.description}</div>
             </div>
           ))}

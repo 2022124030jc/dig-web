@@ -1,6 +1,6 @@
 import PictureGallery from '@/app/components/piacture-gallary';
-import visualDesign from '@/app/config/media/visual-design.json';
 import { PictureItem } from '@/app/utils/type';
+import visualDesign from '@/config/visual-design.json';
 export default function KVPage() {
   return (
     <div className="space-y-6">

@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 技术栈
 
-## Getting Started
+- **前端框架**：Next.js 15.1.7
+- **UI 库**：React 19.0.0
+- **样式**：TailwindCSS
+- **动画**：Framer Motion
+- **图标**：Lucide React
+- **开发工具**：TypeScript, ESLint
+- **构建工具**：Turbopack
 
-First, run the development server:
+## 项目结构
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+config 中为媒体资源，与页面结构对应
+
+```
+dig/
+├── app/                 # 应用主目录
+│   ├── components/      # 可复用组件
+│   ├── (content)/       # 内容页面
+│   ├── utils/           # 工具函数
+│   ├── fonts.ts         # 字体配置
+│   ├── globals.css      # 全局样式
+│   ├── layout.tsx       # 主布局组件
+│   └── page.tsx         # 首页组件
+├── config/              # 配置文件
+│   ├── aboutus.json     # 关于我们数据
+│   ├── account.json     # 账户数据
+│   ├── client.json      # 客户数据
+│   ├── creation.json    # 创作数据
+│   ├── photography.json # 摄影数据
+│   ├── social-media.json# 社交媒体数据
+│   └── visual-design.json# 视觉设计数据
+├── public/              # 静态资源文件
+├── scripts/             # 脚本文件
+└── ...                  # 配置文件等
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 安装和使用
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 前提条件
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 18.0.0 或更高版本
+- pnpm (推荐) 或 npm
 
-## Learn More
+### 安装步骤
 
-To learn more about Next.js, take a look at the following resources:
+1. 克隆仓库
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://your-repository-url/dig.git
+   cd dig
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. 安装依赖
 
-## Deploy on Vercel
+   ```bash
+   pnpm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. 开发环境运行
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   pnpm dev
+   ```
+
+   应用将在 [http://localhost:3000](http://localhost:3000) 运行
+
+4. 构建生产版本
+
+   ```bash
+   pnpm build
+   ```
+
+5. 启动生产服务器
+   ```bash
+   pnpm start
+   ```

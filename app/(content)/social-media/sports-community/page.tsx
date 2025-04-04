@@ -1,6 +1,6 @@
 import PictureGallery from '@/app/components/piacture-gallary';
-import socialMedia from '@/app/config/media/social-media.json';
 import { PictureItem } from '@/app/utils/type';
+import socialMedia from '@/config/social-media.json';
 
 export default function SportsCommunityPage() {
   return (

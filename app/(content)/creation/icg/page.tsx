@@ -1,5 +1,5 @@
 import VideoGallery from '@/app/components/video-gallary';
-import cgiVideoData from '@/app/config/media/creation.json';
+import cgiVideoData from '@/config/creation.json';
 
 export default function CGIPage() {
   return (

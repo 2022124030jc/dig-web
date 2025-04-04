@@ -4,8 +4,18 @@ import { inter } from './fonts';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Digital Agency',
-  description: '创意与动态设计机构',
+  title: 'DIG',
+  description: 'DIG',
+  icons: {
+    icon: '/favicon.ico',
+  },
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+    viewportFit: 'cover',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

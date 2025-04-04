@@ -50,43 +50,35 @@
   ],
   "statistics": [
     {
-      "title": "每亿曝光量",
-      "value": "6.3 W+",
-      "description": "每月用户订阅转化率"
+      "title": "破亿曝光量",
+      "description": "账号笔记累计曝光量"
     },
     {
-      "title": "1600 W+",
-      "value": "70.9 W+",
-      "description": "客户投放转化率"
+      "title": "6.3 W+",
+      "description": "小红书粉丝"
     },
     {
-      "title": "月活用户",
-      "value": "85 W+",
-      "description": "视频互动量"
+      "title": "1600W+",
+      "description": "抖音累计视频播放量"
     },
     {
       "title": "3000 W+",
-      "value": "3000 W+",
-      "description": "视频转化创收量"
+      "description": "视频累计播放量"
     },
     {
       "title": "49.1 W+",
-      "value": "49.1 W+",
       "description": "笔记获赞收藏"
     },
     {
       "title": "70.9 W+",
-      "value": "70.9 W+",
       "description": "笔记互动量"
     },
     {
       "title": "85 W+",
-      "value": "85 W+",
       "description": "视频互动量"
     },
     {
       "title": "3000 W+",
-      "value": "3000 W+",
       "description": "视频累计播放"
     }
   ]

@@ -1,6 +1,6 @@
 import PictureGallery from '@/app/components/piacture-gallary';
-import photography from '@/app/config/media/photography.json';
 import { PictureItem } from '@/app/utils/type';
+import photography from '@/config/photography.json';
 export default function KVPage() {
   return (
     <div className="space-y-6">

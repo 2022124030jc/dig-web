@@ -1,6 +1,6 @@
 import VideoGallery from '@/app/components/video-gallary';
-import socialMedia from '@/app/config/media/social-media.json';
 import { VideoItem } from '@/app/utils/type';
+import socialMedia from '@/config/social-media.json';
 
 export default function DeepDivePage() {
   return (

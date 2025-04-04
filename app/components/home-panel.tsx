@@ -3,8 +3,8 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
-import { navItems } from '../config/sidebar';
 import { Service } from '../page';
+import { navItems } from './sidebar-nav';
 
 interface ServicePanelProps {
   service: Service;
@@ -58,7 +58,7 @@ const HomePanel = ({ service, index, isLast, category }: ServicePanelProps) => {
       {/* 右侧分隔线 */}
       <AnimatePresence>
         {!isLast && !isHovered && (
-          <div className="absolute right-0 inset-y-0 w-[1px] z-10">
+          <div className="absolute right-0 inset-y-0 w-[3px] z-10">
             <div
               className="absolute inset-0 w-full"
               style={{
@@ -110,7 +110,7 @@ const HomePanel = ({ service, index, isLast, category }: ServicePanelProps) => {
           }}
         >
           <motion.h2
-            className="text-white text-xl md:text-2xl lg:text-2xl font-black font-['Inter']"
+            className="text-white text-[34px]  font-black font-inter"
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.2 }}
           >
@@ -119,7 +119,7 @@ const HomePanel = ({ service, index, isLast, category }: ServicePanelProps) => {
         </div>
         {/* 悬停导航 */}
         <div
-          className="absolute inset-0 font-['Inter']"
+          className="absolute inset-0 font-inter"
           style={{
             opacity: isHovered ? 1 : 0,
             transition: 'opacity 0.2s',
@@ -138,7 +138,7 @@ const HomePanel = ({ service, index, isLast, category }: ServicePanelProps) => {
                   transition={{ duration: 0.2 }}
                 >
                   <div className="w-[8px] h-[8px] bg-white rounded-full flex-shrink-0" />
-                  <div className="text-white text-base md:text-lg font-medium group-hover:font-bold transition-all">
+                  <div className="text-white text-[28px] font-medium group-hover:font-bold transition-all">
                     {item.label}
                   </div>
                 </motion.div>
