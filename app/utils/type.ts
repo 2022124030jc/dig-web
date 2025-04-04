@@ -21,3 +21,9 @@ export interface PictureItem {
   span?: number;
   width?: ItemSpan;
 }
+
+export interface Service {
+  title: string;
+  videoSrc: string;
+  fallbackImage?: string; // 添加备用图片
+}

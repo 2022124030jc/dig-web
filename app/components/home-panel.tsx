@@ -3,7 +3,7 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
-import { Service } from '../page';
+import { Service } from '../utils/type';
 import { navItems } from './sidebar-nav';
 
 interface ServicePanelProps {
