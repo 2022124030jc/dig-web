@@ -7,7 +7,7 @@ export default function ContentLayout({ children }: { children: React.ReactNode 
         <SidebarNav />
       </div>
       <PageTransition>
-        <div className="flex-1 overflow-y-auto h-[calc(100vh-100px)] no-scrollbar max-w-[1200px] mx-auto ">
+        <div className="flex-1 overflow-y-auto h-[calc(100vh-100px)] pb-8 no-scrollbar max-w-[1200px] mx-auto ">
           {children}
         </div>
       </PageTransition>
