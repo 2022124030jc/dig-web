@@ -3,11 +3,13 @@
 import clientData from '@/config/client.json';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 
 export default function Clients() {
   // 过滤掉无效数据
   const clients = clientData.clients.filter((client) => client && client.name && client.logo);
+  // 添加鼠标悬停状态
+  const [hoveredColumn, setHoveredColumn] = useState<number | null>(null);
 
   // 将客户按列分组（每列最多显示5个）
   const columnClients = useMemo(() => {
@@ -32,7 +34,12 @@ export default function Clients() {
 
       <div className="grid grid-cols-5 gap-x-16 w-full h-full items-center justify-center py-8">
         {columnClients.map((colClients, colIndex) => (
-          <div key={colIndex} className="relative h-full overflow-hidden">
+          <div
+            key={colIndex}
+            className="relative h-full overflow-hidden"
+            onMouseEnter={() => setHoveredColumn(colIndex)}
+            onMouseLeave={() => setHoveredColumn(null)}
+          >
             <motion.div
               className="flex flex-col gap-16 items-center"
               animate={{
@@ -43,6 +50,7 @@ export default function Clients() {
                 repeat: Infinity,
                 repeatType: 'mirror', // 使用mirror代替loop避免跳回开始位置
                 ease: 'linear',
+                paused: hoveredColumn === colIndex, // 当悬停在此列时暂停动画
               }}
               initial={{ y: 0 }} // 统一起始位置
             >

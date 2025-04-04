@@ -4,7 +4,7 @@ import aboutusData from '@/config/aboutus.json';
 import AutoPlay from 'embla-carousel-autoplay';
 import useEmblaCarousel from 'embla-carousel-react';
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 // 自定义分页指示器组件
 interface DotsProps {
@@ -25,10 +25,14 @@ const CarouselDots = ({ slides, selectedIndex }: DotsProps) => (
 
 export default function TeamPage() {
   const [mounted, setMounted] = useState(false);
+  const [isHover, setIsHover] = useState(false);
+
+  // 创建自动播放插件实例
+  const autoPlayPlugin = useRef(AutoPlay({ delay: 2000, stopOnInteraction: false }));
 
   // 行业报道轮播
   const [headerEmblaRef, headerEmblaApi] = useEmblaCarousel({ loop: true }, [
-    AutoPlay({ delay: 5000 }),
+    autoPlayPlugin.current,
   ]);
   const [headerSelectedIndex, setHeaderSelectedIndex] = useState(0);
 
@@ -66,6 +70,17 @@ export default function TeamPage() {
     };
   }, [headerEmblaApi]);
 
+  // 监听鼠标悬停状态变化控制轮播
+  useEffect(() => {
+    if (!headerEmblaApi || !autoPlayPlugin.current) return;
+
+    if (isHover) {
+      autoPlayPlugin.current.stop();
+    } else {
+      autoPlayPlugin.current.play();
+    }
+  }, [isHover, headerEmblaApi]);
+
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -80,7 +95,12 @@ export default function TeamPage() {
       <section className="mb-12 w-full">
         <h2 className="text-2xl font-bold mb-6 text-white">行业报道</h2>
         <div className="relative w-full">
-          <div className="overflow-hidden rounded-lg" ref={headerEmblaRef}>
+          <div
+            className="overflow-hidden rounded-lg"
+            ref={headerEmblaRef}
+            onMouseEnter={() => setIsHover(true)}
+            onMouseLeave={() => setIsHover(false)}
+          >
             <div className="flex">
               {aboutusData.headerImage.map((item, index) => (
                 <div key={index} className="flex-[0_0_100%] min-w-0">
