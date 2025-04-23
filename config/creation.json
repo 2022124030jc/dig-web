@@ -1,0 +1,422 @@
+{
+  "cg": [
+    {
+      "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty rodents a comical revenge.\n\nLicensed under the Creative Commons Attribution license\nhttp://www.bigbuckbunny.org",
+      "sources": [
+        "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/韶音-钛钢圈耳夹/韶音耳夹 横板4K 输出/韶音耳夹 横板4K 无落版.mp4"
+      ],
+      "subtitle": "By Blender Foundation",
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/韶音-钛钢圈耳夹/韶音耳夹 横板4K 输出/韶音耳夹 横板4K 无落版.mp4",
+      "title": "韶音-钛钢圈耳夹",
+      "width": "1/1"
+    },
+    {
+      "description": "The first Blender Open Movie from 2006",
+      "sources": [
+        "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/倩碧-爱迪生/QB_HYMS_finalversion_1113.mp4"
+      ],
+      "subtitle": "By Blender Foundation",
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/倩碧-爱迪生/QB_HYMS_finalversion_1113.mp4",
+      "title": "倩碧-爱迪生"
+    },
+    {
+      "description": "The first Blender Open Movie from 2006",
+      "sources": [
+        "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/凯乐石x川美/凯乐石山地色FA.mp4"
+      ],
+      "subtitle": "By Blender Foundation",
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/凯乐石x川美/凯乐石山地色FA.mp4",
+      "title": "凯乐石x川美"
+    },
+    {
+      "description": "The first Blender Open Movie from 2006",
+      "sources": [
+        "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/美团/MT_MSLD_finalversion_1121.mp4"
+      ],
+      "subtitle": "By Blender Foundation",
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/美团/MT_MSLD_finalversion_1121.mp4",
+      "title": "美团"
+    },
+    {
+      "description": "The first Blender Open Movie from 2006",
+      "sources": [
+        "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/倩碧-302光子镭射瓶/EBCI-FA.mp4"
+      ],
+      "subtitle": "By Blender Foundation",
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/倩碧-302光子镭射瓶/EBCI-FA.mp4",
+      "title": "倩碧-302光子镭射瓶"
+    },
+    {
+      "description": "The first Blender Open Movie from 2006",
+      "sources": [
+        "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/凯乐石-未来之YAN/KLS_高清正片_无水印_0122-2.mp4"
+      ],
+      "subtitle": "By Blender Foundation",
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/凯乐石-未来之YAN/KLS_高清正片_无水印_0122-2.mp4",
+      "title": "凯乐石-未来之YAN"
+    },
+    {
+      "description": "The first Blender Open Movie from 2006",
+      "sources": [
+        "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/倩碧-牛顿/QB_TCHY_1080p.mp4"
+      ],
+      "subtitle": "By Blender Foundation",
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CG/倩碧-牛顿/QB_TCHY_1080p.mp4",
+      "title": "倩碧-牛顿"
+    }
+  ],
+  "cgi": [
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/361/SLY_finalversion_0902.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/361/SLY_finalversion_0902.mp4",
+      "title": "361",
+      "width": "1/3"
+    },
+
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/百奇/BQ_DAZS_finalversion_0627.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/百奇/BQ_DAZS_finalversion_0627.mp4",
+      "title": "百奇",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/百奇/BQ_finalversion_0925.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/百奇/BQ_finalversion_0925.mp4",
+      "title": "百奇",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/UGG/UGG_ZTYX_finalversion_1025.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/UGG/UGG_ZTYX_finalversion_1025.mp4",
+      "title": "UGG",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/宝洁/OLAY_CHP_finalversion_1018.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/宝洁/OLAY_CHP_finalversion_1018.mp4",
+      "title": "宝洁",
+      "width": "1/2"
+    },
+
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/凡士林/Vaseline_竖屏_1017_v1.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/凡士林/Vaseline_竖屏_1017_v1.mov",
+      "title": "凡士林",
+      "width": "1/2"
+    },
+
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/丰田/FT_finalversion_0802.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/丰田/FT_finalversion_0802.mp4",
+      "title": "丰田",
+      "width": "1/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/馥绿德雅/FLDY_finalversion_0618.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/馥绿德雅/FLDY_finalversion_0618.mp4",
+      "title": "馥绿德雅",
+      "width": "1/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/海蓝之谜-奇迹之心/海蓝之谜奇迹之心FA.m4v"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/海蓝之谜-奇迹之心/海蓝之谜奇迹之心FA.m4v",
+      "title": "海蓝之谜-奇迹之心",
+      "width": "1/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/好奇纸尿裤/好奇FA.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/好奇纸尿裤/好奇FA.mov",
+      "title": "好奇纸尿裤",
+      "width": "1/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/合生元第一季度/HSY_Paris_v01_finalversion.m4v"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/合生元第一季度/HSY_Paris_v01_finalversion.m4v",
+      "title": "合生元第一季度",
+      "width": "1/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/联想/F1TG_finalversion_0419.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/联想/F1TG_finalversion_0419.mp4",
+      "title": "联想",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/脉动青草味/脉动-青草味FA.m4v"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/脉动青草味/脉动-青草味FA.m4v",
+      "title": "脉动青草味",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/美的COLMO大魔方/comol-FA.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/美的COLMO大魔方/comol-FA.mp4",
+      "title": "美的COLMO大魔方",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/农行x万事达/万事达FA.m4v"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/农行x万事达/万事达FA.m4v",
+      "title": "农行x万事达",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/欧莱雅/BOQ_finalversion_0905.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/欧莱雅/BOQ_finalversion_0905.mp4",
+      "title": "欧莱雅",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/人头马/1207_RTM_LX_Final_双微_1920x1080_Hx264.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/人头马/1207_RTM_LX_Final_双微_1920x1080_Hx264.mp4",
+      "title": "人头马",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/瑞幸/Luckin巴黎铁塔100M.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/瑞幸/Luckin巴黎铁塔100M.mp4",
+      "title": "瑞幸",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/韶音/SY_HB_finalversion_0801.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/韶音/SY_HB_finalversion_0801.mp4",
+      "title": "韶音",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/香缇卡/XTK_finalversion_0918.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/香缇卡/XTK_finalversion_0918.mp4",
+      "title": "香缇卡",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/雅顿/YD_KLCP_finalversion_0807.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/雅顿/YD_KLCP_finalversion_0807.mp4",
+      "title": "雅顿",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/伊利/QKLNN_finalversion_0517.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/伊利/QKLNN_finalversion_0517.mp4",
+      "title": "伊利",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/自如/ZRXS_finalversion_0716.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/自如/ZRXS_finalversion_0716.mp4",
+      "title": "自如",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/BMW/BMW_finalversion_0809.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/BMW/BMW_finalversion_0809.mp4",
+      "title": "BMW",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/Burberry/BBR_finalversion_1108.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/Burberry/BBR_finalversion_1108.mp4",
+      "title": "Burberry",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/ECCO巴黎铁塔/20250411.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/ECCO巴黎铁塔/20250411.mp4",
+      "title": "ECCO巴黎铁塔",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/IPSA/IPSA_LJS_finalversion_0910.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/IPSA/IPSA_LJS_finalversion_0910.mp4",
+      "title": "IPSA",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/SHEIN/SHEIN全片动画(标准)角标1.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/CGI/SHEIN/SHEIN全片动画(标准)角标1.mp4",
+      "title": "SHEIN",
+      "width": "1/3"
+    }
+  ],
+  "motion": [
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/阿里-淘小宝/源视频 无水印/澳大利亚.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/阿里-淘小宝/源视频 无水印/澳大利亚.mp4",
+      "title": "阿里-淘小宝/澳大利亚",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/阿里-淘小宝/源视频 无水印/马来西亚.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/阿里-淘小宝/源视频 无水印/马来西亚.mp4",
+      "title": "阿里-淘小宝/马来西亚",
+      "width": "1/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/阿里-淘小宝/源视频 无水印/台湾.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/阿里-淘小宝/源视频 无水印/台湾.mp4",
+      "title": "阿里-淘小宝/台湾",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/阿里-淘小宝/源视频 无水印/香港.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/阿里-淘小宝/源视频 无水印/香港.mp4",
+      "title": "阿里-淘小宝/香港",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/阿里-淘小宝/源视频 无水印/新加坡.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/阿里-淘小宝/源视频 无水印/新加坡.mp4",
+      "title": "阿里-淘小宝/新加坡",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/霸王茶姬x黔灵山动物园/地铁.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/霸王茶姬x黔灵山动物园/地铁.mov",
+      "title": "霸王茶姬x黔灵山动物园/地铁",
+      "width": "1/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/霸王茶姬x黔灵山动物园/弘福寺.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/霸王茶姬x黔灵山动物园/弘福寺.mov",
+      "title": "霸王茶姬x黔灵山动物园/弘福寺",
+      "width": "1/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/霸王茶姬x黔灵山动物园/缆车.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/霸王茶姬x黔灵山动物园/缆车.mov",
+      "title": "霸王茶姬x黔灵山动物园/缆车",
+      "width": "1/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/霸王茶姬x黔灵山动物园/牌匾.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/霸王茶姬x黔灵山动物园/牌匾.mov",
+      "title": "霸王茶姬x黔灵山动物园/牌匾",
+      "width": "1/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/霸王茶姬x黔灵山动物园/黔灵湖.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/霸王茶姬x黔灵山动物园/黔灵湖.mov",
+      "title": "霸王茶姬x黔灵山动物园/黔灵湖",
+      "width": "1/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/金典-38节/无水印v4_4k.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/金典-38节/无水印v4_4k.mp4",
+      "title": "金典-38节"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/凯乐石-未来之YAN/流体live.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/凯乐石-未来之YAN/流体live.mov",
+      "title": "凯乐石-未来之YAN/流体",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/凯乐石-未来之YAN/岩石live.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/凯乐石-未来之YAN/岩石live.mov",
+      "title": "凯乐石-未来之YAN/岩石",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/凯乐石-未来之YAN/宇宙live.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/凯乐石-未来之YAN/宇宙live.mov",
+      "title": "凯乐石-未来之YAN/宇宙",
+      "width": "1/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/麦芬/横版 高清.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/麦芬/横版 高清.mp4",
+      "title": "麦芬/横版",
+      "width": "1/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/脉动青草味-无锡/脉动-无锡长春桥【无水印】.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/脉动青草味-无锡/脉动-无锡长春桥【无水印】.mp4",
+      "title": "脉动青草味-无锡/长春桥"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/欧舒丹/房间_digitai.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/欧舒丹/房间_digitai.mov",
+      "title": "欧舒丹/房间"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/欧舒丹/梳妆台_digitai.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/欧舒丹/梳妆台_digitai.mov",
+      "title": "欧舒丹/梳妆台"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/欧舒丹/洗漱台_digitai.mov"],
+     "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/欧舒丹/洗漱台_digitai.mov",
+      "title": "欧舒丹/洗漱台"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/欧舒丹/浴室_digitai.mov"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/欧舒丹/浴室_digitai.mov",
+      "title": "欧舒丹/浴室"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/潘婷/品牌水印/财神到家.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/潘婷/品牌水印/财神到家.mp4",
+      "title": "潘婷/财神到家"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/潘婷/品牌水印/海上派送.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/潘婷/品牌水印/海上派送.mp4",
+      "title": "潘婷/海上派送"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/潘婷/品牌水印/沙龙.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/潘婷/品牌水印/沙龙.mp4",
+      "title": "潘婷/沙龙"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/潘婷/品牌水印/跳伞.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/潘婷/品牌水印/跳伞.mp4",
+      "title": "潘婷/跳伞"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/小红书-时装周/小红书时装周.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/小红书-时装周/小红书时装周.mp4",
+      "title": "小红书-时装周"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/伊利新春/视频.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/伊利新春/视频.mp4",
+      "title": "伊利新春"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/Swisse x 奈雪/1.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/Swisse x 奈雪/1.mp4",
+      "title": "Swisse x 奈雪/1"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/Swisse x 奈雪/2.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/Swisse x 奈雪/2.mp4",
+      "title": "Swisse x 奈雪/2"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/Swisse x 奈雪/3.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/Swisse x 奈雪/3.mp4",
+      "title": "Swisse x 奈雪/3"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/Swisse x 奈雪/4.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/Swisse x 奈雪/4.mp4",
+      "title": "Swisse x 奈雪/4"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/Swisse x 奈雪/5.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/Swisse x 奈雪/5.mp4",
+      "title": "Swisse x 奈雪/5"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/Swisse x 奈雪/6.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/Swisse x 奈雪/6.mp4",
+      "title": "Swisse x 奈雪/6"
+    },
+    {
+      "sources": ["https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/脉动青草味-无锡/【脉动无锡-赏樱楼】纯净流文件/无腿纯净.mp4"],
+      "thumb": "https://dig-web.oss-cn-hangzhou.aliyuncs.com/AI/脉动青草味-无锡/【脉动无锡-赏樱楼】纯净流文件/无腿纯净.mp4",
+      "title": "脉动青草味-无锡/赏樱楼"
+    }
+  ]
+}

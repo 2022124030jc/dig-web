@@ -1,0 +1,61 @@
+{
+  "interview": [
+    {
+      "description": "The first Blender Open Movie from 2006",
+      "sources": [
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+      ],
+      "subtitle": "By Blender Foundation",
+      "thumb": "https://plus.unsplash.com/premium_photo-1741194732590-95a096a10942?q=80&w=1588&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Elephant Dream",
+      "width": "1/2"
+    }
+  ],
+  "brandActivity": [
+    {
+      "id": "1",
+      "title": "海边日落",
+      "subtitle": "摄影师：John Doe",
+      "description": "这张照片捕捉了海边日落时分的美丽景色，金色的阳光洒在海面上，形成了令人惊叹的自然景观。",
+      "imgUrl": "https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "author": "John Doe",
+      "width": "1/2"
+    }
+  ],
+
+  "deepDive": [
+    {
+      "description": "The first Blender Open Movie from 2006",
+      "sources": [
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+      ],
+      "subtitle": "By Blender Foundation",
+      "thumb": "https://plus.unsplash.com/premium_photo-1741194732590-95a096a10942?q=80&w=1588&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Elephant Dream",
+      "width": "1/2"
+    }
+  ],
+  "brandAnalysis": [
+    {
+      "description": "The first Blender Open Movie from 2006",
+      "sources": [
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+      ],
+      "subtitle": "By Blender Foundation",
+      "thumb": "https://plus.unsplash.com/premium_photo-1741194732590-95a096a10942?q=80&w=1588&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Elephant Dream",
+      "width": "1/2"
+    }
+  ],
+  "sportsCommunity": [
+    {
+      "id": "1",
+      "title": "海边日落",
+      "subtitle": "摄影师：John Doe",
+      "description": "这张照片捕捉了海边日落时分的美丽景色，金色的阳光洒在海面上，形成了令人惊叹的自然景观。",
+      "imgUrl": "https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "author": "John Doe",
+      "width": "1/2"
+    }
+  ]
+}
