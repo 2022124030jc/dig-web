@@ -157,3 +157,4 @@ const VideoGallery: React.FC<{ mediaJSON: VideoItem[] }> = ({ mediaJSON }) => {
     </div>
   );
 };
+export default VideoGallery;
