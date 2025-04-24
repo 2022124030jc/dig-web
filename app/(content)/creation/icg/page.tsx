@@ -1,5 +1,6 @@
 import VideoGallery from '@/app/components/video-gallary';
 import cgiVideoData from '@/config/creation.json';
+<<<<<<< HEAD
 import { ItemSpan, VideoItem } from '@/app/utils/type'; // 假设类型定义在 types 文件中
 
 export default function CGIPage() {
@@ -17,3 +18,13 @@ export default function CGIPage() {
     </div>
   );
 }
+=======
+
+export default function CGIPage() {
+  return (
+    <div className="space-y-6">
+      <VideoGallery mediaJSON={cgiVideoData.cgi} />
+    </div>
+  );
+}
+>>>>>>> upstream/main

@@ -2,6 +2,10 @@
 
 import { AnimatePresence, motion } from 'framer-motion';
 import { Play } from 'lucide-react';
+<<<<<<< HEAD
+=======
+import Image from 'next/image';
+>>>>>>> upstream/main
 import React, { useState } from 'react';
 import { getItemClassName } from '../utils/layout-utils';
 import { VideoItem } from '../utils/type';
@@ -19,11 +23,14 @@ const VideoGallery: React.FC<{ mediaJSON: VideoItem[] }> = ({ mediaJSON }) => {
     setActiveVideo(null);
   };
 
+<<<<<<< HEAD
   // 判断资源是否为视频
   const isVideo = (url: string) => {
     return url.endsWith('.mp4') || url.endsWith('.mov') || url.endsWith('.m4v');
   };
 
+=======
+>>>>>>> upstream/main
   // 模态框动画变体
   const backdropVariants = {
     hidden: { opacity: 0 },
@@ -62,6 +69,7 @@ const VideoGallery: React.FC<{ mediaJSON: VideoItem[] }> = ({ mediaJSON }) => {
               onClick={() => openVideoModal(video)}
             >
               <div className="w-full h-full relative">
+<<<<<<< HEAD
                 {/* 动态渲染图片或视频 */}
                 {isVideo(video.thumb) ? (
                   <video
@@ -78,6 +86,16 @@ const VideoGallery: React.FC<{ mediaJSON: VideoItem[] }> = ({ mediaJSON }) => {
                     className="w-full h-full object-cover rounded-lg"
                   />
                 )}
+=======
+                <Image
+                  src={video.thumb}
+                  alt={video.title}
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
+                  unoptimized
+                />
+>>>>>>> upstream/main
                 <div className="absolute inset-0 hover:bg-black hover:bg-opacity-20 transition-all duration-300">
                   <div className="absolute bottom-3 right-3 w-12 h-12 rounded-full bg-white bg-opacity-80 flex items-center justify-center shadow-md">
                     <Play className="h-6 w-6 text-primary fill-current text-black" />
@@ -158,4 +176,8 @@ const VideoGallery: React.FC<{ mediaJSON: VideoItem[] }> = ({ mediaJSON }) => {
   );
 };
 
+<<<<<<< HEAD
 export default VideoGallery;
+=======
+export default VideoGallery;
+>>>>>>> upstream/main
