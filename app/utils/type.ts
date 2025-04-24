@@ -2,9 +2,9 @@ export type ItemSpan = '1/2' | '1/3' | '1/4' | '2/3' | '3/4' | '1/1';
 
 // 视频数据接口
 export interface VideoItem {
-  description: string;
+  description?: string;
   sources: string[];
-  subtitle: string;
+  subtitle?: string;
   thumb: string;
   title: string;
   span?: number;
